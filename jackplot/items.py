@@ -9,4 +9,6 @@ import scrapy
 class JackplotItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    result = scrapy.Field()
+    title = scrapy.Field()
+    date = scrapy.Field()
+    body = scrapy.Field()
